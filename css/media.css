@@ -1,0 +1,41 @@
+@media screen and (max-width:990px) {
+    .navbar .navbar-collapse ul li{
+        text-align: center;
+    }
+    .navbar .navbar-collapse ul li a:hover::after{
+        width: 40%;
+        left: 32%;
+    }
+    .navbar .navbar-collapse form{
+
+        margin: 0 auto;
+        width: 60%;
+    }
+    .navbar .container-fluid .icons i{
+        position: absolute;
+        top: 19px;
+        right: 80px;
+    }
+}
+@media screen and (max-width:600px) {
+    .services div{
+        flex-direction: column;
+        font-size: 16px;
+    }
+    .image-container .main {
+        height: 350px;
+    }
+    .review-container .reviews,
+    .review-container .review-image{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:400px) {
+    .review-container .review-image img{
+        height: 25px;
+        width: 120px;
+    }
+    .review-container span{
+        font-size: 12px;
+    }
+}
