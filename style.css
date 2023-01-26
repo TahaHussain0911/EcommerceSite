@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* overflow-x: hidden; */
+    font-family: 'Roboto Slab', serif;
 }
 
 .navbar{
@@ -11,7 +13,7 @@
     position: sticky !important;
     top: 0;
     box-shadow: 4px 4px 20px silver;
-    z-index: 2;
+    z-index: 10;
 }
 
 .navbar .container-fluid a{
@@ -101,7 +103,7 @@
     margin-top: 20px;
     margin-bottom: 40px;
     box-shadow: 1px 3px 15px 10px silver;
-    background-image: url("/img/main.jpg");
+    background-image: url("img/main.jpg");
     background-size: 100% 100%;
     animation: slider 20s cubic-bezier(1,-0.18, 1, 0.53) 5s infinite;
     cursor:grab;

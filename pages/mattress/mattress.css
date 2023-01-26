@@ -1,0 +1,71 @@
+.mattress-container{
+    margin: 0 auto;
+    width: 96%;
+    color: #033628;
+    margin-top: 6vh;
+}
+.heading{
+    color: #033628;
+    opacity: 0.9;
+}
+.card{
+    border: none;
+    position: relative;
+}
+.image{
+    position: relative;
+
+}
+.card .heart-box{
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    height: 38px;
+    width: 38px;
+    z-index: 1;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 100%;
+    cursor: progress;
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.card .image .secret{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.image:hover .secret{
+    display: block;
+}
+.card .product-content{
+    color: #033628;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.card .product-content .icons i{
+    color: #f9a25a;
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.card .product-content .icons .empty{
+    color: silver;
+}
+.card .product-content h4{
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+.card .product-content span{
+    font-size: 12px;
+}
+.card .product-content p{
+    font-size: 24px;
+    font-weight: bold;
+}

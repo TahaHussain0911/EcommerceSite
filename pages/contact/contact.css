@@ -1,0 +1,72 @@
+.sign-up{
+    margin: 15vh auto;
+    width: 60%;
+    background-color: #fff2f2;
+    padding: 20px 5px;
+    border-radius: 20px;
+    color: #033628;
+}
+.sign-up h1{
+    text-align: center;
+    color: #033628;
+}
+
+.sign-up form{
+    margin: 0 auto;
+    width: 70%;
+}
+.sign-up form label{
+    font-size: 13px;
+}
+.sign-up form button{
+    width: 100%;
+    background-color: #033628;
+    color: white;
+    border-radius: 25px;
+    transition: 0.3s all;
+    outline: none;
+    border: none;
+}
+.sign-up form button:hover{
+    background-color: #033628 !important;
+    opacity: 0.8;
+}
+.sign-up .sign-in{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.sign-up .sign-in a{
+    color: #033628;
+    text-align: center;
+    opacity: 0.9;   
+}
+.create-account{
+    text-align: center;
+    margin-top: 15px;
+}
+.create-account h5{
+    font-size: 17px;
+    font-weight: bold;
+    color: #033628;
+    margin: 0px !important;
+    opacity: 0.8;
+}
+.create-account a{
+    color: #033628;
+}
+@media screen and (max-width:850px) {
+    .sign-up{
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px) {
+    .sign-up{
+        width: 96%;
+    }
+}
+@media screen and (max-width:450px) {
+    .sign-up form{
+        width: 90%;
+    }
+}
